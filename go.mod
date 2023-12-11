@@ -1,4 +1,4 @@
-module one-konsole/mq
+module github.com/OneKonsole/sys-queueing
 
 go 1.21.4
 
