@@ -132,9 +132,9 @@ func Consume(
 				consumer.QueueName,
 				consumer.ConsumerName,
 				consumer.AutoAck,
-				consumer.IsExclusive,
-				consumer.NoLocal,
-				consumer.NoWait,
+				false,
+				false,
+				false,
 				consumer.Arguments,
 			)
 			FailOnError(err, "Failed to register a consumer")
