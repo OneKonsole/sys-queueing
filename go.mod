@@ -2,4 +2,4 @@ module github.com/OneKonsole/sys-queueing
 
 go 1.21.4
 
-require github.com/rabbitmq/amqp091-go v1.9.0
+require github.com/rabbitmq/amqp091-go v1.13.0
